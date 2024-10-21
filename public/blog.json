@@ -1,0 +1,52 @@
+[
+    {
+        "id": "001",
+        "title": "The Adventure Awaits",
+        "cover": "https://i.ibb.co.com/4swqQKt/image-1.jpg",
+        "author": "Jane Doe",
+        "author_img": "https://i.ibb.co.com/YyVvqhS/image-1.jpg",
+        "posted_date": "2024-10-01",
+        "reading_time": "5",
+        "hashtags": ["#fiction", "#adventure", "#bookworm"]
+    },
+    {
+        "id": "002",
+        "title": "Mystery in the Shadows",
+        "cover": "https://i.ibb.co.com/gmQfSdJ/image-2.jpg",
+        "author": "John Smith",
+        "author_img": "https://i.ibb.co.com/cC0wGth/image-2.jpg",
+        "posted_date": "2024-09-15",
+        "reading_time": "7",
+        "hashtags": ["#mystery", "#thriller", "#novel"]
+    },
+    {
+        "id": "003",
+        "title": "Hearts in Bloom",
+        "cover": "https://i.ibb.co.com/37J5Kbd/image-3.jpg",
+        "author": "Emily Johnson",
+        "author_img": "https://i.ibb.co.com/kH3cZGc/image-3.jpg",
+        "posted_date": "2024-08-22",
+        "reading_time": "6",
+        "hashtags": ["#romance", "#drama", "#reads"]
+    },
+    {
+        "id": "004",
+        "title": "Journey Through the Stars",
+        "cover": "https://i.ibb.co.com/7vb1dLL/image-4.jpg",
+        "author": "Michael Brown",
+        "author_img": "https://i.ibb.co.com/564QXk6/image-4.jpg",
+        "posted_date": "2024-07-10",
+        "reading_time": "8",
+        "hashtags": ["#sciencefiction", "#space", "#imagination"]
+    },
+    {
+        "id": "005",
+        "title": "The Enchanted Realm",
+        "cover": "https://i.ibb.co.com/Xx4khX5/image-5.jpg",
+        "author": "Sarah Davis",
+        "author_img": "",
+        "posted_date": "2024-06-05",
+        "reading_time": "4",
+        "hashtags": ["#fantasy", "#magic", "#worldbuilding"]
+    }
+]
