@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Blog = ({blog,handleMark}) => {
+const Blog = ({blog,handleMark , handleMarkAsRead}) => {
     const {title,cover,author,posted_date,author_img,reading_time,hashtags} = blog;
     return (
         <div className='mb-20'>
@@ -29,6 +29,9 @@ const Blog = ({blog,handleMark}) => {
                    hashtags.map((hash,idx) => <span key={idx}><a className='mr-2' href="">{hash}</a></span>) 
                 }
             </p>
+            <button
+            onClick={() => handleMarkAsRead(reading_time)}
+             className='underline text-blue-700 mt-4 font-bold'>Mark as Read</button>
         </div>
     );
 };
@@ -45,7 +48,8 @@ const Blog = ({blog,handleMark}) => {
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleMark : PropTypes.func
+    handleMark : PropTypes.func,
+    handleMarkAsRead: PropTypes.func
 }
 
 export default Blog;
